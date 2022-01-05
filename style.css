@@ -1,0 +1,93 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 50px;
+}
+.only-size{
+    font-size: 40px;
+    color: rgb(68, 64, 64);
+}
+
+.span-class{
+    color: orange;
+}
+
+.section-felx{
+    display: flex;
+    margin-bottom: 10px;
+}
+.fast-div{
+    width: 50%;
+    padding: 5%;
+}
+.fast-div img{
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    font-weight: bold;
+    color: palegoldenrod;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+
+.fast-section{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    
+
+}
+.section-two{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.section-three{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.tata{
+    color: orange;
+}
+
+.last-exp{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px gray;
+   
+}
+
+#border-02{
+    border-left: 5px solid;
+   border-image: linear-gradient( cyan, blue);
+   border-image-slice: 5 ;
+   border-radius: 15px;
+}
+
+#border-01{
+    border-left: 5px solid;
+   border-image: linear-gradient(salmon, tomato);
+   border-image-slice: 5 ;
+   border-radius: 15px;
+}
+
+
+footer p{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 2px;
+    padding-top: 60px;
+}
+
